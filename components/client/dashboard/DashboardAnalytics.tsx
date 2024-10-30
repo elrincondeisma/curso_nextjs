@@ -66,9 +66,9 @@ export default function DashboardAnalytics() {
     
 
   return (
-    <div className="">
-      <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold">Analíticas</h1>
+    <div>
+      <h1 className="text-3xl font-bold">Analíticas</h1>
+      <div className="items-center my-8">
         <Popover>
           <PopoverTrigger asChild>
             <Button
