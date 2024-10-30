@@ -9,7 +9,7 @@ export default function LandingPage() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <Pill className="h-6 w-6" />
-          <span className="ml-2 text-2xl font-bold">MediRemind</span>
+          <span className="ml-2 text-2xl font-bold">PillReminder</span>
         </Link>
         
       </header>
@@ -22,7 +22,7 @@ export default function LandingPage() {
                   Nunca olvides tu medicación
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  MediRemind te ayuda a gestionar tus recordatorios de medicación y tratamientos de forma fácil y eficiente.
+                  PillReminder te ayuda a gestionar tus recordatorios de medicación y tratamientos de forma fácil y eficiente.
                 </p>
               </div>
               <div className="space-x-4">
@@ -96,7 +96,7 @@ export default function LandingPage() {
                   Comienza a gestionar tu salud hoy
                 </h2>
                 <p className="mx-auto max-w-[600px] text-primary-foreground/80 md:text-xl">
-                  Únete a miles de usuarios que ya están mejorando su adherencia al tratamiento con MediRemind.
+                  Únete a miles de usuarios que ya están mejorando su adherencia al tratamiento con PillReminder.
                 </p>
               </div>
               <Button className="bg-white text-primary hover:bg-primary-foreground">Registrarse gratis</Button>
@@ -105,7 +105,7 @@ export default function LandingPage() {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 MediRemind. Todos los derechos reservados.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 PillReminder. Todos los derechos reservados.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
             Términos de servicio
