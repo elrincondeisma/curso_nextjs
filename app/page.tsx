@@ -1,5 +1,5 @@
 import LandingPage from "@/components/client/LandingPage";
-//example
+//example nuevo
 export default function Home() {
   return (
     <LandingPage />
