@@ -11,17 +11,7 @@ export default function LandingPage() {
           <Pill className="h-6 w-6" />
           <span className="ml-2 text-2xl font-bold">MediRemind</span>
         </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#features">
-            Características
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#how-it-works">
-            Cómo funciona
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#contact">
-            Contacto
-          </Link>
-        </nav>
+        
       </header>
       <main className="flex-1 mx-auto">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
